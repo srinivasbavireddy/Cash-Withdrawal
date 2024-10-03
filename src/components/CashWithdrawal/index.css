@@ -1,0 +1,71 @@
+.bg-container {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.card-container {
+  width: 90%;
+  max-width: 320px;
+  background-color: #150b3e;
+  border-radius: 15px;
+  padding: 20px;
+}
+.profile-Name-Container {
+  display: flex;
+  align-items: center;
+}
+.profile-name-img {
+  background-color: #c7d2fe;
+  color: #7c3aed;
+  width: 50px;
+  height: 50px;
+  border-radius: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 15px;
+  margin-right: 20px;
+}
+.name {
+  color: #c4c4c4;
+  font-size: 16px;
+}
+.balance-container {
+  display: flex;
+  justify-content: space-between;
+}
+.your-balance {
+  color: #585076;
+  font-size: 15px;
+  font-weight: 600;
+  padding-top: 6px;
+}
+.balance-amount {
+  color: #c4c4c4;
+  font-size: 20px;
+  font-weight: 500;
+}
+.in-rupees {
+  color: #585076;
+  font-size: 12px;
+  font-weight: 500;
+}
+.withdraw {
+  color: #c4c4c4;
+  font-size: 18px;
+  font-weight: 500;
+}
+.choose-heading {
+  color: #585076;
+  font-size: 12px;
+  font-weight: 500;
+}
+.denominations-Container {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-left: 0px;
+}
